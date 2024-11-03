@@ -62,3 +62,7 @@ msal_cache.bin
 
 .env
 .perf.baseline
+
+# NPM
+
+node_modules/
