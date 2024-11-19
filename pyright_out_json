@@ -1,0 +1,2094 @@
+{
+    "version": "1.1.387",
+    "time": "1730662513449",
+    "generalDiagnostics": [
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/__main__.py",
+            "severity": "error",
+            "message": "Argument of type \"(a: Unknown) -> str\" cannot be assigned to parameter \"option_renderer\" of type \"type[str]\" in function \"_select_options\"\n  Type \"(a: Unknown) -> str\" is not assignable to type \"type[str]\"",
+            "range": {
+                "start": {
+                    "line": 92,
+                    "character": 28
+                },
+                "end": {
+                    "line": 92,
+                    "character": 99
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/__main__.py",
+            "severity": "error",
+            "message": "Argument of type \"Literal['value']\" cannot be assigned to parameter \"key\" of type \"SupportsIndex | slice\" in function \"__getitem__\"\n  Type \"Literal['value']\" is not assignable to type \"SupportsIndex | slice\"\n    \"Literal['value']\" is incompatible with protocol \"SupportsIndex\"\n      \"__index__\" is not present\n    \"Literal['value']\" is not assignable to \"slice\"",
+            "range": {
+                "start": {
+                    "line": 115,
+                    "character": 13
+                },
+                "end": {
+                    "line": 121,
+                    "character": 43
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/__main__.py",
+            "severity": "error",
+            "message": "Argument of type \"(o: Unknown) -> Unknown\" cannot be assigned to parameter \"option_renderer\" of type \"type[str]\" in function \"_select_options\"\n  Type \"(o: Unknown) -> Unknown\" is not assignable to type \"type[str]\"",
+            "range": {
+                "start": {
+                    "line": 120,
+                    "character": 24
+                },
+                "end": {
+                    "line": 120,
+                    "character": 50
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/__main__.py",
+            "severity": "error",
+            "message": "Cannot access attribute \"get\" for class \"str\"\n  Attribute \"get\" is unknown",
+            "range": {
+                "start": {
+                    "line": 144,
+                    "character": 59
+                },
+                "end": {
+                    "line": 144,
+                    "character": 62
+                }
+            },
+            "rule": "reportAttributeAccessIssue"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/__main__.py",
+            "severity": "error",
+            "message": "Argument of type \"Literal['username']\" cannot be assigned to parameter \"key\" of type \"SupportsIndex | slice\" in function \"__getitem__\"\n  Type \"Literal['username']\" is not assignable to type \"SupportsIndex | slice\"\n    \"Literal['username']\" is incompatible with protocol \"SupportsIndex\"\n      \"__index__\" is not present\n    \"Literal['username']\" is not assignable to \"slice\"",
+            "range": {
+                "start": {
+                    "line": 214,
+                    "character": 88
+                },
+                "end": {
+                    "line": 214,
+                    "character": 107
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/__main__.py",
+            "severity": "error",
+            "message": "Argument of type \"(o: Unknown) -> Unknown\" cannot be assigned to parameter \"option_renderer\" of type \"type[str]\" in function \"_select_options\"\n  Type \"(o: Unknown) -> Unknown\" is not assignable to type \"type[str]\"",
+            "range": {
+                "start": {
+                    "line": 251,
+                    "character": 24
+                },
+                "end": {
+                    "line": 251,
+                    "character": 43
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/__main__.py",
+            "severity": "error",
+            "message": "Argument of type \"Literal['choice']\" cannot be assigned to parameter \"key\" of type \"SupportsIndex | slice\" in function \"__getitem__\"\n  Type \"Literal['choice']\" is not assignable to type \"SupportsIndex | slice\"\n    \"Literal['choice']\" is incompatible with protocol \"SupportsIndex\"\n      \"__index__\" is not present\n    \"Literal['choice']\" is not assignable to \"slice\"",
+            "range": {
+                "start": {
+                    "line": 254,
+                    "character": 7
+                },
+                "end": {
+                    "line": 254,
+                    "character": 29
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/__main__.py",
+            "severity": "error",
+            "message": "Argument of type \"(a: Unknown) -> Unknown\" cannot be assigned to parameter \"option_renderer\" of type \"type[str]\" in function \"_select_options\"\n  Type \"(a: Unknown) -> Unknown\" is not assignable to type \"type[str]\"",
+            "range": {
+                "start": {
+                    "line": 270,
+                    "character": 24
+                },
+                "end": {
+                    "line": 270,
+                    "character": 43
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/__main__.py",
+            "severity": "error",
+            "message": "Argument of type \"Literal['client_id']\" cannot be assigned to parameter \"key\" of type \"SupportsIndex | slice\" in function \"__getitem__\"\n  Type \"Literal['client_id']\" is not assignable to type \"SupportsIndex | slice\"\n    \"Literal['client_id']\" is incompatible with protocol \"SupportsIndex\"\n      \"__index__\" is not present\n    \"Literal['client_id']\" is not assignable to \"slice\"",
+            "range": {
+                "start": {
+                    "line": 275,
+                    "character": 23
+                },
+                "end": {
+                    "line": 275,
+                    "character": 46
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/__main__.py",
+            "severity": "error",
+            "message": "Argument of type \"Literal['client_secret']\" cannot be assigned to parameter \"key\" of type \"SupportsIndex | slice\" in function \"__getitem__\"\n  Type \"Literal['client_secret']\" is not assignable to type \"SupportsIndex | slice\"\n    \"Literal['client_secret']\" is incompatible with protocol \"SupportsIndex\"\n      \"__index__\" is not present\n    \"Literal['client_secret']\" is not assignable to \"slice\"",
+            "range": {
+                "start": {
+                    "line": 275,
+                    "character": 51
+                },
+                "end": {
+                    "line": 275,
+                    "character": 78
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/__main__.py",
+            "severity": "error",
+            "message": "Argument of type \"Literal['client_id']\" cannot be assigned to parameter \"key\" of type \"SupportsIndex | slice\" in function \"__getitem__\"\n  Type \"Literal['client_id']\" is not assignable to type \"SupportsIndex | slice\"\n    \"Literal['client_id']\" is incompatible with protocol \"SupportsIndex\"\n      \"__index__\" is not present\n    \"Literal['client_id']\" is not assignable to \"slice\"",
+            "range": {
+                "start": {
+                    "line": 305,
+                    "character": 8
+                },
+                "end": {
+                    "line": 305,
+                    "character": 31
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/__main__.py",
+            "severity": "error",
+            "message": "Argument of type \"Literal['client_secret']\" cannot be assigned to parameter \"key\" of type \"SupportsIndex | slice\" in function \"__getitem__\"\n  Type \"Literal['client_secret']\" is not assignable to type \"SupportsIndex | slice\"\n    \"Literal['client_secret']\" is incompatible with protocol \"SupportsIndex\"\n      \"__index__\" is not present\n    \"Literal['client_secret']\" is not assignable to \"slice\"",
+            "range": {
+                "start": {
+                    "line": 306,
+                    "character": 26
+                },
+                "end": {
+                    "line": 306,
+                    "character": 53
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/__main__.py",
+            "severity": "error",
+            "message": "Argument of type \"(f: Unknown) -> Unknown\" cannot be assigned to parameter \"option_renderer\" of type \"type[str]\" in function \"_select_options\"\n  Type \"(f: Unknown) -> Unknown\" is not assignable to type \"type[str]\"",
+            "range": {
+                "start": {
+                    "line": 332,
+                    "character": 28
+                },
+                "end": {
+                    "line": 332,
+                    "character": 47
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/__main__.py",
+            "severity": "error",
+            "message": "Object of type \"str\" is not callable\n  Attribute \"__call__\" is unknown",
+            "range": {
+                "start": {
+                    "line": 334,
+                    "character": 12
+                },
+                "end": {
+                    "line": 334,
+                    "character": 21
+                }
+            },
+            "rule": "reportCallIssue"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/application.py",
+            "severity": "error",
+            "message": "Method \"initiate_auth_code_flow\" overrides class \"Client\" in an incompatible manner\n  Positional parameter count mismatch; base method has 3, but override has 2",
+            "range": {
+                "start": {
+                    "line": 169,
+                    "character": 8
+                },
+                "end": {
+                    "line": 169,
+                    "character": 31
+                }
+            },
+            "rule": "reportIncompatibleMethodOverride"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/application.py",
+            "severity": "error",
+            "message": "Method \"obtain_token_by_username_password\" overrides class \"Client\" in an incompatible manner\n  Positional parameter count mismatch; base method has 5, but override has 4",
+            "range": {
+                "start": {
+                    "line": 190,
+                    "character": 8
+                },
+                "end": {
+                    "line": 190,
+                    "character": 41
+                }
+            },
+            "rule": "reportIncompatibleMethodOverride"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/application.py",
+            "severity": "error",
+            "message": "Import \"msal_extensions\" could not be resolved",
+            "range": {
+                "start": {
+                    "line": 200,
+                    "character": 13
+                },
+                "end": {
+                    "line": 200,
+                    "character": 28
+                }
+            },
+            "rule": "reportMissingImports"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/application.py",
+            "severity": "error",
+            "message": "\"v\" is possibly unbound",
+            "range": {
+                "start": {
+                    "line": 209,
+                    "character": 52
+                },
+                "end": {
+                    "line": 209,
+                    "character": 53
+                }
+            },
+            "rule": "reportPossiblyUnboundVariable"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/application.py",
+            "severity": "error",
+            "message": "Cannot assign to attribute \"proxies\" for class \"Session\"\n  Type \"Unknown | None\" is not assignable to type \"_TextMapping\"\n    \"None\" is not assignable to \"MutableMapping[str, str]\"",
+            "range": {
+                "start": {
+                    "line": 599,
+                    "character": 39
+                },
+                "end": {
+                    "line": 599,
+                    "character": 46
+                }
+            },
+            "rule": "reportAttributeAccessIssue"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/application.py",
+            "severity": "error",
+            "message": "Cannot assign to attribute \"request\" for class \"Session\"\n  Type \"partial[Response]\" is not assignable to type \"(method: str | bytes, url: str | bytes, params: _Params | None = None, data: _Data | None = None, headers: _HeadersUpdateMapping | None = None, cookies: RequestsCookieJar | _TextMapping | None = None, files: _Files | None = None, auth: _Auth | None = None, timeout: _Timeout | None = None, allow_redirects: bool = True, proxies: _TextMapping | None = None, hooks: _HooksInput | None = None, stream: bool | None = None, verify: _Verify | None = None, cert: _Cert | None = None, json: Any | None = None) -> Response\"\n    Parameter name mismatch: \"timeout\" versus \"allow_redirects\"\n    Parameter 9: type \"_Timeout | None\" is incompatible with type \"bool\"\n      Type \"_Timeout | None\" is not assignable to type \"bool\"\n        \"float\" is not assignable to \"bool\"\n    Parameter name mismatch: \"allow_redirects\" versus \"proxies\"\n    Parameter 10: type \"bool\" is incompatible with type \"_TextMapping | None\"\n      Type \"bool\" is not assignable to type \"_TextMapping | None\"\n  ...",
+            "range": {
+                "start": {
+                    "line": 602,
+                    "character": 39
+                },
+                "end": {
+                    "line": 603,
+                    "character": 58
+                }
+            },
+            "rule": "reportAttributeAccessIssue"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/application.py",
+            "severity": "error",
+            "message": "\"adapters\" is not a known attribute of module \"requests\"",
+            "range": {
+                "start": {
+                    "line": 607,
+                    "character": 25
+                },
+                "end": {
+                    "line": 607,
+                    "character": 33
+                }
+            },
+            "rule": "reportAttributeAccessIssue"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/application.py",
+            "severity": "error",
+            "message": "\"authority_to_use\" is possibly unbound",
+            "range": {
+                "start": {
+                    "line": 644,
+                    "character": 20
+                },
+                "end": {
+                    "line": 644,
+                    "character": 36
+                }
+            },
+            "rule": "reportPossiblyUnboundVariable"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/application.py",
+            "severity": "error",
+            "message": "Cannot assign to attribute \"authority_groups\" for class \"PublicClientApplication*\"\n  Expression of type \"None\" cannot be assigned to attribute \"authority_groups\" of class \"PublicClientApplication\"\n    \"None\" is not assignable to \"list[set[Any]]\"",
+            "range": {
+                "start": {
+                    "line": 657,
+                    "character": 13
+                },
+                "end": {
+                    "line": 657,
+                    "character": 29
+                }
+            },
+            "rule": "reportAttributeAccessIssue"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/application.py",
+            "severity": "error",
+            "message": "\"List\" is not defined",
+            "range": {
+                "start": {
+                    "line": 1364,
+                    "character": 29
+                },
+                "end": {
+                    "line": 1364,
+                    "character": 33
+                }
+            },
+            "rule": "reportUndefinedVariable"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/application.py",
+            "severity": "error",
+            "message": "\"Account\" is not defined",
+            "range": {
+                "start": {
+                    "line": 1365,
+                    "character": 39
+                },
+                "end": {
+                    "line": 1365,
+                    "character": 46
+                }
+            },
+            "rule": "reportUndefinedVariable"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/application.py",
+            "severity": "error",
+            "message": "\"boolean\" is not defined",
+            "range": {
+                "start": {
+                    "line": 1367,
+                    "character": 51
+                },
+                "end": {
+                    "line": 1367,
+                    "character": 58
+                }
+            },
+            "rule": "reportUndefinedVariable"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/application.py",
+            "severity": "error",
+            "message": "\"List\" is not defined",
+            "range": {
+                "start": {
+                    "line": 1395,
+                    "character": 29
+                },
+                "end": {
+                    "line": 1395,
+                    "character": 33
+                }
+            },
+            "rule": "reportUndefinedVariable"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/application.py",
+            "severity": "error",
+            "message": "\"Account\" is not defined",
+            "range": {
+                "start": {
+                    "line": 1396,
+                    "character": 39
+                },
+                "end": {
+                    "line": 1396,
+                    "character": 46
+                }
+            },
+            "rule": "reportUndefinedVariable"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/application.py",
+            "severity": "error",
+            "message": "\"boolean\" is not defined",
+            "range": {
+                "start": {
+                    "line": 1398,
+                    "character": 51
+                },
+                "end": {
+                    "line": 1398,
+                    "character": 58
+                }
+            },
+            "rule": "reportUndefinedVariable"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/application.py",
+            "severity": "error",
+            "message": "\"List\" is not defined",
+            "range": {
+                "start": {
+                    "line": 1448,
+                    "character": 29
+                },
+                "end": {
+                    "line": 1448,
+                    "character": 33
+                }
+            },
+            "rule": "reportUndefinedVariable"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/application.py",
+            "severity": "error",
+            "message": "\"Account\" is not defined",
+            "range": {
+                "start": {
+                    "line": 1449,
+                    "character": 39
+                },
+                "end": {
+                    "line": 1449,
+                    "character": 46
+                }
+            },
+            "rule": "reportUndefinedVariable"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/application.py",
+            "severity": "error",
+            "message": "\"boolean\" is not defined",
+            "range": {
+                "start": {
+                    "line": 1451,
+                    "character": 51
+                },
+                "end": {
+                    "line": 1451,
+                    "character": 58
+                }
+            },
+            "rule": "reportUndefinedVariable"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/application.py",
+            "severity": "error",
+            "message": "\"List\" is not defined",
+            "range": {
+                "start": {
+                    "line": 1510,
+                    "character": 29
+                },
+                "end": {
+                    "line": 1510,
+                    "character": 33
+                }
+            },
+            "rule": "reportUndefinedVariable"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/application.py",
+            "severity": "error",
+            "message": "\"Account\" is not defined",
+            "range": {
+                "start": {
+                    "line": 1511,
+                    "character": 39
+                },
+                "end": {
+                    "line": 1511,
+                    "character": 46
+                }
+            },
+            "rule": "reportUndefinedVariable"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/application.py",
+            "severity": "error",
+            "message": "\"boolean\" is not defined",
+            "range": {
+                "start": {
+                    "line": 1513,
+                    "character": 51
+                },
+                "end": {
+                    "line": 1513,
+                    "character": 58
+                }
+            },
+            "rule": "reportUndefinedVariable"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/application.py",
+            "severity": "error",
+            "message": "Cannot access attribute \"_acquire_token_for_client\" for class \"ClientApplication*\"\n  Attribute \"_acquire_token_for_client\" is unknown",
+            "range": {
+                "start": {
+                    "line": 1606,
+                    "character": 30
+                },
+                "end": {
+                    "line": 1606,
+                    "character": 55
+                }
+            },
+            "rule": "reportAttributeAccessIssue"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/application.py",
+            "severity": "error",
+            "message": "Argument of type \"Any | None\" cannot be assigned to parameter \"key\" of type \"str\" in function \"get\"\n  Type \"Any | None\" is not assignable to type \"str\"\n    \"None\" is not assignable to \"str\"",
+            "range": {
+                "start": {
+                    "line": 1896,
+                    "character": 18
+                },
+                "end": {
+                    "line": 1896,
+                    "character": 44
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/application.py",
+            "severity": "error",
+            "message": "Argument of type \"Unknown | str | None\" cannot be assigned to parameter \"claims\" of type \"str\" in function \"_acquire_token_interactive_via_broker\"\n  Type \"Unknown | str | None\" is not assignable to type \"str\"\n    \"None\" is not assignable to \"str\"",
+            "range": {
+                "start": {
+                    "line": 2151,
+                    "character": 16
+                },
+                "end": {
+                    "line": 2151,
+                    "character": 22
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/application.py",
+            "severity": "error",
+            "message": "\"boolean\" is not defined",
+            "range": {
+                "start": {
+                    "line": 2193,
+                    "character": 45
+                },
+                "end": {
+                    "line": 2193,
+                    "character": 52
+                }
+            },
+            "rule": "reportUndefinedVariable"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/application.py",
+            "severity": "error",
+            "message": "Expected class but received \"(obj: object, /) -> TypeIs[(...) -> object]\"",
+            "range": {
+                "start": {
+                    "line": 2196,
+                    "character": 45
+                },
+                "end": {
+                    "line": 2196,
+                    "character": 53
+                }
+            },
+            "rule": "reportGeneralTypeIssues"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/application.py",
+            "severity": "error",
+            "message": "Import \"pymsalruntime\" could not be resolved",
+            "range": {
+                "start": {
+                    "line": 2252,
+                    "character": 21
+                },
+                "end": {
+                    "line": 2252,
+                    "character": 34
+                }
+            },
+            "rule": "reportMissingImports"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/auth_scheme.py",
+            "severity": "error",
+            "message": "Import \"urlparse\" could not be resolved",
+            "range": {
+                "start": {
+                    "line": 3,
+                    "character": 9
+                },
+                "end": {
+                    "line": 3,
+                    "character": 17
+                }
+            },
+            "rule": "reportMissingImports"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/authority.py",
+            "severity": "error",
+            "message": "Import \"urlparse\" could not be resolved",
+            "range": {
+                "start": {
+                    "line": 4,
+                    "character": 9
+                },
+                "end": {
+                    "line": 4,
+                    "character": 17
+                }
+            },
+            "rule": "reportMissingImports"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/broker.py",
+            "severity": "error",
+            "message": "Import \"pymsalruntime\" could not be resolved",
+            "range": {
+                "start": {
+                    "line": 12,
+                    "character": 11
+                },
+                "end": {
+                    "line": 12,
+                    "character": 24
+                }
+            },
+            "rule": "reportMissingImports"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/cloudshell.py",
+            "severity": "error",
+            "message": "Import \"urlparse\" could not be resolved",
+            "range": {
+                "start": {
+                    "line": 12,
+                    "character": 9
+                },
+                "end": {
+                    "line": 12,
+                    "character": 17
+                }
+            },
+            "rule": "reportMissingImports"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/individual_cache.py",
+            "severity": "error",
+            "message": "\"MutableMapping\" is unknown import symbol",
+            "range": {
+                "start": {
+                    "line": 5,
+                    "character": 28
+                },
+                "end": {
+                    "line": 5,
+                    "character": 42
+                }
+            },
+            "rule": "reportAttributeAccessIssue"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/individual_cache.py",
+            "severity": "error",
+            "message": "Argument to class must be a base class",
+            "range": {
+                "start": {
+                    "line": 10,
+                    "character": 23
+                },
+                "end": {
+                    "line": 10,
+                    "character": 37
+                }
+            },
+            "rule": "reportGeneralTypeIssues"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/individual_cache.py",
+            "severity": "error",
+            "message": "Cannot access attribute \"set\" for class \"dict[Unknown, Unknown]\"\n  Attribute \"set\" is unknown",
+            "range": {
+                "start": {
+                    "line": 281,
+                    "character": 30
+                },
+                "end": {
+                    "line": 281,
+                    "character": 33
+                }
+            },
+            "rule": "reportAttributeAccessIssue"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/managed_identity.py",
+            "severity": "error",
+            "message": "Operator \">=\" not supported for types \"str | int | Unknown | Any\" and \"Literal[7200]\"\n  Operator \">=\" not supported for types \"str\" and \"Literal[7200]\"",
+            "range": {
+                "start": {
+                    "line": 332,
+                    "character": 50
+                },
+                "end": {
+                    "line": 332,
+                    "character": 68
+                }
+            },
+            "rule": "reportOperatorIssue"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/managed_identity.py",
+            "severity": "error",
+            "message": "Argument of type \"int\" cannot be assigned to parameter \"value\" of type \"str\" in function \"__setitem__\"\n  \"int\" is not assignable to \"str\"",
+            "range": {
+                "start": {
+                    "line": 333,
+                    "character": 20
+                },
+                "end": {
+                    "line": 333,
+                    "character": 40
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/managed_identity.py",
+            "severity": "error",
+            "message": "Operator \"/\" not supported for types \"str | int | Unknown | Any\" and \"Literal[2]\"\n  Operator \"/\" not supported for types \"str\" and \"Literal[2]\" when expected type is \"ConvertibleToInt\"",
+            "range": {
+                "start": {
+                    "line": 333,
+                    "character": 47
+                },
+                "end": {
+                    "line": 333,
+                    "character": 61
+                }
+            },
+            "rule": "reportOperatorIssue"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/managed_identity.py",
+            "severity": "error",
+            "message": "Argument of type \"int\" cannot be assigned to parameter \"value\" of type \"str\" in function \"__setitem__\"\n  \"int\" is not assignable to \"str\"",
+            "range": {
+                "start": {
+                    "line": 344,
+                    "character": 20
+                },
+                "end": {
+                    "line": 344,
+                    "character": 40
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/managed_identity.py",
+            "severity": "error",
+            "message": "Operator \"+\" not supported for types \"float\" and \"Unknown | str | Any\"\n  Operator \"+\" not supported for types \"float\" and \"str\" when expected type is \"ConvertibleToInt\"",
+            "range": {
+                "start": {
+                    "line": 344,
+                    "character": 47
+                },
+                "end": {
+                    "line": 344,
+                    "character": 73
+                }
+            },
+            "rule": "reportOperatorIssue"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/mex.py",
+            "severity": "error",
+            "message": "Import \"urlparse\" could not be resolved",
+            "range": {
+                "start": {
+                    "line": 30,
+                    "character": 9
+                },
+                "end": {
+                    "line": 30,
+                    "character": 17
+                }
+            },
+            "rule": "reportMissingImports"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/mex.py",
+            "severity": "error",
+            "message": "\"get\" is not a known attribute of \"None\"",
+            "range": {
+                "start": {
+                    "line": 106,
+                    "character": 56
+                },
+                "end": {
+                    "line": 106,
+                    "character": 59
+                }
+            },
+            "rule": "reportOptionalMemberAccess"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/mex.py",
+            "severity": "error",
+            "message": "\"get\" is not a known attribute of \"None\"",
+            "range": {
+                "start": {
+                    "line": 110,
+                    "character": 60
+                },
+                "end": {
+                    "line": 110,
+                    "character": 63
+                }
+            },
+            "rule": "reportOptionalMemberAccess"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/mex.py",
+            "severity": "error",
+            "message": "\"split\" is not a known attribute of \"None\"",
+            "range": {
+                "start": {
+                    "line": 119,
+                    "character": 47
+                },
+                "end": {
+                    "line": 119,
+                    "character": 52
+                }
+            },
+            "rule": "reportOptionalMemberAccess"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/mex.py",
+            "severity": "error",
+            "message": "\"lower\" is not a known attribute of \"None\"",
+            "range": {
+                "start": {
+                    "line": 123,
+                    "character": 56
+                },
+                "end": {
+                    "line": 123,
+                    "character": 61
+                }
+            },
+            "rule": "reportOptionalMemberAccess"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/throttled_http_client.py",
+            "severity": "error",
+            "message": "\"status_code\" is not a known attribute of \"None\"",
+            "range": {
+                "start": {
+                    "line": 117,
+                    "character": 26
+                },
+                "end": {
+                    "line": 117,
+                    "character": 37
+                }
+            },
+            "rule": "reportOptionalMemberAccess"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/throttled_http_client.py",
+            "severity": "error",
+            "message": "\"get\" is not a known attribute of \"None\"",
+            "range": {
+                "start": {
+                    "line": 124,
+                    "character": 38
+                },
+                "end": {
+                    "line": 124,
+                    "character": 41
+                }
+            },
+            "rule": "reportOptionalMemberAccess"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/throttled_http_client.py",
+            "severity": "error",
+            "message": "Object of type \"None\" is not subscriptable",
+            "range": {
+                "start": {
+                    "line": 125,
+                    "character": 24
+                },
+                "end": {
+                    "line": 125,
+                    "character": 30
+                }
+            },
+            "rule": "reportOptionalSubscript"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/throttled_http_client.py",
+            "severity": "error",
+            "message": "\"status_code\" is not a known attribute of \"None\"",
+            "range": {
+                "start": {
+                    "line": 141,
+                    "character": 41
+                },
+                "end": {
+                    "line": 141,
+                    "character": 52
+                }
+            },
+            "rule": "reportOptionalMemberAccess"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/token_cache.py",
+            "severity": "error",
+            "message": "Expression of type \"None\" cannot be assigned to parameter of type \"set[Unknown]\"\n  \"None\" is not assignable to \"set[Unknown]\"",
+            "range": {
+                "start": {
+                    "line": 127,
+                    "character": 65
+                },
+                "end": {
+                    "line": 127,
+                    "character": 69
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/token_cache.py",
+            "severity": "error",
+            "message": "Argument of type \"dict[Unknown, Unknown] | Unknown | None\" cannot be assigned to parameter \"query\" of type \"dict[Unknown, Unknown]\" in function \"_is_matching\"\n  Type \"dict[Unknown, Unknown] | Unknown | None\" is not assignable to type \"dict[Unknown, Unknown]\"\n    \"None\" is not assignable to \"dict[Unknown, Unknown]\"",
+            "range": {
+                "start": {
+                    "line": 173,
+                    "character": 49
+                },
+                "end": {
+                    "line": 173,
+                    "character": 54
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/token_cache.py",
+            "severity": "error",
+            "message": "Method \"add\" overrides class \"TokenCache\" in an incompatible manner\n  Positional parameter count mismatch; base method has 3, but override has 3",
+            "range": {
+                "start": {
+                    "line": 416,
+                    "character": 8
+                },
+                "end": {
+                    "line": 416,
+                    "character": 11
+                }
+            },
+            "rule": "reportIncompatibleMethodOverride"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/token_cache.py",
+            "severity": "error",
+            "message": "\"Optional\" is not defined",
+            "range": {
+                "start": {
+                    "line": 426,
+                    "character": 17
+                },
+                "end": {
+                    "line": 426,
+                    "character": 25
+                }
+            },
+            "rule": "reportUndefinedVariable"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/wstrust_response.py",
+            "severity": "error",
+            "message": "\"text\" is not a known attribute of \"None\"",
+            "range": {
+                "start": {
+                    "line": 55,
+                    "character": 43
+                },
+                "end": {
+                    "line": 55,
+                    "character": 47
+                }
+            },
+            "rule": "reportOptionalMemberAccess"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/wstrust_response.py",
+            "severity": "error",
+            "message": "\"text\" is not a known attribute of \"None\"",
+            "range": {
+                "start": {
+                    "line": 55,
+                    "character": 76
+                },
+                "end": {
+                    "line": 55,
+                    "character": 80
+                }
+            },
+            "rule": "reportOptionalMemberAccess"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/assertion.py",
+            "severity": "error",
+            "message": "Cannot assign to attribute \"sign_assertion\" for class \"JwtSigner\"\n  Attribute \"sign_assertion\" is unknown",
+            "range": {
+                "start": {
+                    "line": 135,
+                    "character": 10
+                },
+                "end": {
+                    "line": 135,
+                    "character": 24
+                }
+            },
+            "rule": "reportAttributeAccessIssue"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/authcode.py",
+            "severity": "error",
+            "message": "Import \"BaseHTTPServer\" could not be resolved",
+            "range": {
+                "start": {
+                    "line": 20,
+                    "character": 9
+                },
+                "end": {
+                    "line": 20,
+                    "character": 23
+                }
+            },
+            "rule": "reportMissingImports"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/authcode.py",
+            "severity": "error",
+            "message": "Import \"urlparse\" could not be resolved",
+            "range": {
+                "start": {
+                    "line": 21,
+                    "character": 9
+                },
+                "end": {
+                    "line": 21,
+                    "character": 17
+                }
+            },
+            "rule": "reportMissingImports"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/authcode.py",
+            "severity": "error",
+            "message": "\"urlencode\" is unknown import symbol",
+            "range": {
+                "start": {
+                    "line": 22,
+                    "character": 23
+                },
+                "end": {
+                    "line": 22,
+                    "character": 32
+                }
+            },
+            "rule": "reportAttributeAccessIssue"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/authcode.py",
+            "severity": "error",
+            "message": "\"escape\" is unknown import symbol",
+            "range": {
+                "start": {
+                    "line": 23,
+                    "character": 20
+                },
+                "end": {
+                    "line": 23,
+                    "character": 26
+                }
+            },
+            "rule": "reportAttributeAccessIssue"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/authcode.py",
+            "severity": "error",
+            "message": "\"get\" is not a known attribute of \"None\"",
+            "range": {
+                "start": {
+                    "line": 38,
+                    "character": 14
+                },
+                "end": {
+                    "line": 38,
+                    "character": 17
+                }
+            },
+            "rule": "reportOptionalMemberAccess"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/authcode.py",
+            "severity": "error",
+            "message": "Argument to class must be a base class",
+            "range": {
+                "start": {
+                    "line": 109,
+                    "character": 23
+                },
+                "end": {
+                    "line": 109,
+                    "character": 45
+                }
+            },
+            "rule": "reportGeneralTypeIssues"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/authcode.py",
+            "severity": "error",
+            "message": "Argument to class must be a base class",
+            "range": {
+                "start": {
+                    "line": 146,
+                    "character": 26
+                },
+                "end": {
+                    "line": 146,
+                    "character": 36
+                }
+            },
+            "rule": "reportGeneralTypeIssues"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/authcode.py",
+            "severity": "error",
+            "message": "Operator \"+\" not supported for \"None\"",
+            "range": {
+                "start": {
+                    "line": 354,
+                    "character": 20
+                },
+                "end": {
+                    "line": 354,
+                    "character": 27
+                }
+            },
+            "rule": "reportOptionalOperand"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/oauth2.py",
+            "severity": "error",
+            "message": "Import \"urlparse\" could not be resolved",
+            "range": {
+                "start": {
+                    "line": 7,
+                    "character": 9
+                },
+                "end": {
+                    "line": 7,
+                    "character": 17
+                }
+            },
+            "rule": "reportMissingImports"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/oauth2.py",
+            "severity": "error",
+            "message": "\"urlencode\" is unknown import symbol",
+            "range": {
+                "start": {
+                    "line": 8,
+                    "character": 23
+                },
+                "end": {
+                    "line": 8,
+                    "character": 32
+                }
+            },
+            "rule": "reportAttributeAccessIssue"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/oauth2.py",
+            "severity": "error",
+            "message": "\"quote_plus\" is unknown import symbol",
+            "range": {
+                "start": {
+                    "line": 8,
+                    "character": 34
+                },
+                "end": {
+                    "line": 8,
+                    "character": 44
+                }
+            },
+            "rule": "reportAttributeAccessIssue"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/oauth2.py",
+            "severity": "warning",
+            "message": "Expression value is unused",
+            "range": {
+                "start": {
+                    "line": 22,
+                    "character": 4
+                },
+                "end": {
+                    "line": 22,
+                    "character": 19
+                }
+            },
+            "rule": "reportUnusedExpression"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/oauth2.py",
+            "severity": "error",
+            "message": "\"Optional\" is not defined",
+            "range": {
+                "start": {
+                    "line": 62,
+                    "character": 41
+                },
+                "end": {
+                    "line": 62,
+                    "character": 49
+                }
+            },
+            "rule": "reportUndefinedVariable"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/oauth2.py",
+            "severity": "error",
+            "message": "\"Union\" is not defined",
+            "range": {
+                "start": {
+                    "line": 63,
+                    "character": 44
+                },
+                "end": {
+                    "line": 63,
+                    "character": 49
+                }
+            },
+            "rule": "reportUndefinedVariable"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/oauth2.py",
+            "severity": "error",
+            "message": "Expected class but received \"(obj: object, /) -> TypeIs[(...) -> object]\"",
+            "range": {
+                "start": {
+                    "line": 63,
+                    "character": 57
+                },
+                "end": {
+                    "line": 63,
+                    "character": 65
+                }
+            },
+            "rule": "reportGeneralTypeIssues"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/oauth2.py",
+            "severity": "error",
+            "message": "\"Optional\" is not defined",
+            "range": {
+                "start": {
+                    "line": 64,
+                    "character": 49
+                },
+                "end": {
+                    "line": 64,
+                    "character": 57
+                }
+            },
+            "rule": "reportUndefinedVariable"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/oauth2.py",
+            "severity": "error",
+            "message": "\"Optional\" is not defined",
+            "range": {
+                "start": {
+                    "line": 65,
+                    "character": 43
+                },
+                "end": {
+                    "line": 65,
+                    "character": 51
+                }
+            },
+            "rule": "reportUndefinedVariable"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/oauth2.py",
+            "severity": "error",
+            "message": "\"Optional\" is not defined",
+            "range": {
+                "start": {
+                    "line": 66,
+                    "character": 40
+                },
+                "end": {
+                    "line": 66,
+                    "character": 48
+                }
+            },
+            "rule": "reportUndefinedVariable"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/oauth2.py",
+            "severity": "error",
+            "message": "\"Union\" is not defined",
+            "range": {
+                "start": {
+                    "line": 67,
+                    "character": 34
+                },
+                "end": {
+                    "line": 67,
+                    "character": 39
+                }
+            },
+            "rule": "reportUndefinedVariable"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/oauth2.py",
+            "severity": "error",
+            "message": "Expected class but received \"Literal[True]\"",
+            "range": {
+                "start": {
+                    "line": 67,
+                    "character": 45
+                },
+                "end": {
+                    "line": 67,
+                    "character": 49
+                }
+            },
+            "rule": "reportGeneralTypeIssues"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/oauth2.py",
+            "severity": "error",
+            "message": "Expected class but received \"Literal[False]\"",
+            "range": {
+                "start": {
+                    "line": 67,
+                    "character": 51
+                },
+                "end": {
+                    "line": 67,
+                    "character": 56
+                }
+            },
+            "rule": "reportGeneralTypeIssues"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/oauth2.py",
+            "severity": "error",
+            "message": "\"Optional\" is not defined",
+            "range": {
+                "start": {
+                    "line": 68,
+                    "character": 35
+                },
+                "end": {
+                    "line": 68,
+                    "character": 43
+                }
+            },
+            "rule": "reportUndefinedVariable"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/oauth2.py",
+            "severity": "error",
+            "message": "\"Union\" is not defined",
+            "range": {
+                "start": {
+                    "line": 69,
+                    "character": 35
+                },
+                "end": {
+                    "line": 69,
+                    "character": 40
+                }
+            },
+            "rule": "reportUndefinedVariable"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/oauth2.py",
+            "severity": "error",
+            "message": "Cannot assign to attribute \"request\" for class \"Session\"\n  Type \"partial[Response]\" is not assignable to type \"(method: str | bytes, url: str | bytes, params: _Params | None = None, data: _Data | None = None, headers: _HeadersUpdateMapping | None = None, cookies: RequestsCookieJar | _TextMapping | None = None, files: _Files | None = None, auth: _Auth | None = None, timeout: _Timeout | None = None, allow_redirects: bool = True, proxies: _TextMapping | None = None, hooks: _HooksInput | None = None, stream: bool | None = None, verify: _Verify | None = None, cert: _Cert | None = None, json: Any | None = None) -> Response\"\n    Parameter name mismatch: \"timeout\" versus \"allow_redirects\"\n    Parameter 9: type \"_Timeout | None\" is incompatible with type \"bool\"\n      Type \"_Timeout | None\" is not assignable to type \"bool\"\n        \"float\" is not assignable to \"bool\"\n    Parameter name mismatch: \"allow_redirects\" versus \"proxies\"\n    Parameter 10: type \"bool\" is incompatible with type \"_TextMapping | None\"\n      Type \"bool\" is not assignable to type \"_TextMapping | None\"\n  ...",
+            "range": {
+                "start": {
+                    "line": 166,
+                    "character": 40
+                },
+                "end": {
+                    "line": 168,
+                    "character": 59
+                }
+            },
+            "rule": "reportAttributeAccessIssue"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/oauth2.py",
+            "severity": "error",
+            "message": "Parameter annotation count mismatch: expected 3 but received 2",
+            "range": {
+                "start": {
+                    "line": 253,
+                    "character": 16
+                },
+                "end": {
+                    "line": 253,
+                    "character": 59
+                }
+            },
+            "rule": "reportInvalidTypeForm"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/oauth2.py",
+            "severity": "error",
+            "message": "\"Union\" is not defined",
+            "range": {
+                "start": {
+                    "line": 253,
+                    "character": 22
+                },
+                "end": {
+                    "line": 253,
+                    "character": 27
+                }
+            },
+            "rule": "reportUndefinedVariable"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/oauth2.py",
+            "severity": "error",
+            "message": "Type of \"kwargs\" could not be determined because it refers to itself",
+            "range": {
+                "start": {
+                    "line": 262,
+                    "character": 15
+                },
+                "end": {
+                    "line": 262,
+                    "character": 21
+                }
+            },
+            "rule": "reportGeneralTypeIssues"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/oauth2.py",
+            "severity": "error",
+            "message": "Type of \"kwargs\" could not be determined because it refers to itself",
+            "range": {
+                "start": {
+                    "line": 264,
+                    "character": 64
+                },
+                "end": {
+                    "line": 264,
+                    "character": 70
+                }
+            },
+            "rule": "reportGeneralTypeIssues"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/oauth2.py",
+            "severity": "error",
+            "message": "Expression of type \"None\" cannot be assigned to parameter of type \"list[Unknown]\"\n  \"None\" is not assignable to \"list[Unknown]\"",
+            "range": {
+                "start": {
+                    "line": 307,
+                    "character": 41
+                },
+                "end": {
+                    "line": 307,
+                    "character": 45
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/oauth2.py",
+            "severity": "error",
+            "message": "Argument of type \"dict[Unknown, Unknown]\" cannot be assigned to parameter \"auth\" of type \"_Auth | None\" in function \"post\"\n  Type \"dict[Unknown, Unknown]\" is not assignable to type \"_Auth | None\"\n    \"dict[Unknown, Unknown]\" is not assignable to \"tuple[str, str]\"\n    \"dict[Unknown, Unknown]\" is not assignable to \"AuthBase\"\n    Type \"dict[Unknown, Unknown]\" is not assignable to type \"(PreparedRequest) -> PreparedRequest\"\n    \"dict[Unknown, Unknown]\" is not assignable to \"None\"",
+            "range": {
+                "start": {
+                    "line": 328,
+                    "character": 14
+                },
+                "end": {
+                    "line": 328,
+                    "character": 20
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/oauth2.py",
+            "severity": "error",
+            "message": "Argument of type \"dict[Unknown, Unknown]\" cannot be assigned to parameter \"timeout\" of type \"_Timeout | None\" in function \"post\"\n  Type \"dict[Unknown, Unknown]\" is not assignable to type \"_Timeout | None\"\n    \"dict[Unknown, Unknown]\" is not assignable to \"float\"\n    \"dict[Unknown, Unknown]\" is not assignable to \"tuple[float, float]\"\n    \"dict[Unknown, Unknown]\" is not assignable to \"tuple[float, None]\"\n    \"dict[Unknown, Unknown]\" is not assignable to \"None\"",
+            "range": {
+                "start": {
+                    "line": 328,
+                    "character": 14
+                },
+                "end": {
+                    "line": 328,
+                    "character": 20
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/oauth2.py",
+            "severity": "error",
+            "message": "Argument of type \"dict[Unknown, Unknown]\" cannot be assigned to parameter \"allow_redirects\" of type \"bool\" in function \"post\"\n  \"dict[Unknown, Unknown]\" is not assignable to \"bool\"",
+            "range": {
+                "start": {
+                    "line": 328,
+                    "character": 14
+                },
+                "end": {
+                    "line": 328,
+                    "character": 20
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/oauth2.py",
+            "severity": "error",
+            "message": "Argument of type \"dict[Unknown, Unknown]\" cannot be assigned to parameter \"stream\" of type \"bool | None\" in function \"post\"\n  Type \"dict[Unknown, Unknown]\" is not assignable to type \"bool | None\"\n    \"dict[Unknown, Unknown]\" is not assignable to \"bool\"\n    \"dict[Unknown, Unknown]\" is not assignable to \"None\"",
+            "range": {
+                "start": {
+                    "line": 328,
+                    "character": 14
+                },
+                "end": {
+                    "line": 328,
+                    "character": 20
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/oauth2.py",
+            "severity": "error",
+            "message": "Argument of type \"dict[Unknown, Unknown]\" cannot be assigned to parameter \"verify\" of type \"_Verify | None\" in function \"post\"\n  Type \"dict[Unknown, Unknown]\" is not assignable to type \"_Verify | None\"\n    \"dict[Unknown, Unknown]\" is not assignable to \"bool\"\n    \"dict[Unknown, Unknown]\" is not assignable to \"str\"\n    \"dict[Unknown, Unknown]\" is not assignable to \"None\"",
+            "range": {
+                "start": {
+                    "line": 328,
+                    "character": 14
+                },
+                "end": {
+                    "line": 328,
+                    "character": 20
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/oauth2.py",
+            "severity": "error",
+            "message": "Argument of type \"dict[Unknown, Unknown]\" cannot be assigned to parameter \"cert\" of type \"_Cert | None\" in function \"post\"\n  Type \"dict[Unknown, Unknown]\" is not assignable to type \"_Cert | None\"\n    \"dict[Unknown, Unknown]\" is not assignable to \"str\"\n    \"dict[Unknown, Unknown]\" is not assignable to \"tuple[str, str]\"\n    \"dict[Unknown, Unknown]\" is not assignable to \"None\"",
+            "range": {
+                "start": {
+                    "line": 328,
+                    "character": 14
+                },
+                "end": {
+                    "line": 328,
+                    "character": 20
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/oauth2.py",
+            "severity": "error",
+            "message": "Argument of type \"dict[Unknown, Unknown]\" cannot be assigned to parameter \"also_save_rt\" of type \"bool\" in function \"_obtain_token\"\n  \"dict[Unknown, Unknown]\" is not assignable to \"bool\"",
+            "range": {
+                "start": {
+                    "line": 348,
+                    "character": 57
+                },
+                "end": {
+                    "line": 348,
+                    "character": 63
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/oauth2.py",
+            "severity": "error",
+            "message": "Parameter annotation count mismatch: expected 3 but received 2",
+            "range": {
+                "start": {
+                    "line": 359,
+                    "character": 16
+                },
+                "end": {
+                    "line": 359,
+                    "character": 40
+                }
+            },
+            "rule": "reportInvalidTypeForm"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/oauth2.py",
+            "severity": "error",
+            "message": "\"Callable\" is not defined",
+            "range": {
+                "start": {
+                    "line": 359,
+                    "character": 23
+                },
+                "end": {
+                    "line": 359,
+                    "character": 31
+                }
+            },
+            "rule": "reportUndefinedVariable"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/oauth2.py",
+            "severity": "error",
+            "message": "Type of \"kwargs\" could not be determined because it refers to itself",
+            "range": {
+                "start": {
+                    "line": 385,
+                    "character": 63
+                },
+                "end": {
+                    "line": 385,
+                    "character": 69
+                }
+            },
+            "rule": "reportGeneralTypeIssues"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/oauth2.py",
+            "severity": "error",
+            "message": "\"PermissionError\" is possibly unbound",
+            "range": {
+                "start": {
+                    "line": 643,
+                    "character": 15
+                },
+                "end": {
+                    "line": 643,
+                    "character": 30
+                }
+            },
+            "rule": "reportPossiblyUnboundVariable"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/oauth2.py",
+            "severity": "error",
+            "message": "\"copy\" is not a known attribute of \"None\"",
+            "range": {
+                "start": {
+                    "line": 774,
+                    "character": 21
+                },
+                "end": {
+                    "line": 774,
+                    "character": 25
+                }
+            },
+            "rule": "reportOptionalMemberAccess"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/oauth2.py",
+            "severity": "error",
+            "message": "Method \"obtain_token_by_refresh_token\" overrides class \"BaseClient\" in an incompatible manner\n  Parameter 2 name mismatch: base parameter is named \"refresh_token\", override parameter is named \"token_item\"",
+            "range": {
+                "start": {
+                    "line": 802,
+                    "character": 8
+                },
+                "end": {
+                    "line": 802,
+                    "character": 37
+                }
+            },
+            "rule": "reportIncompatibleMethodOverride"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/oauth2.py",
+            "severity": "error",
+            "message": "Parameter annotation count mismatch: expected 6 but received 3",
+            "range": {
+                "start": {
+                    "line": 807,
+                    "character": 16
+                },
+                "end": {
+                    "line": 807,
+                    "character": 82
+                }
+            },
+            "rule": "reportInvalidTypeForm"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/oauth2.py",
+            "severity": "error",
+            "message": "\"Union\" is not defined",
+            "range": {
+                "start": {
+                    "line": 807,
+                    "character": 17
+                },
+                "end": {
+                    "line": 807,
+                    "character": 22
+                }
+            },
+            "rule": "reportUndefinedVariable"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/oauth2.py",
+            "severity": "error",
+            "message": "\"Union\" is not defined",
+            "range": {
+                "start": {
+                    "line": 807,
+                    "character": 35
+                },
+                "end": {
+                    "line": 807,
+                    "character": 40
+                }
+            },
+            "rule": "reportUndefinedVariable"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/oauth2.py",
+            "severity": "error",
+            "message": "\"Callable\" is not defined",
+            "range": {
+                "start": {
+                    "line": 807,
+                    "character": 65
+                },
+                "end": {
+                    "line": 807,
+                    "character": 73
+                }
+            },
+            "rule": "reportUndefinedVariable"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/oauth2.py",
+            "severity": "error",
+            "message": "Type of \"on_updating_rt\" could not be determined because it refers to itself",
+            "range": {
+                "start": {
+                    "line": 838,
+                    "character": 25
+                },
+                "end": {
+                    "line": 838,
+                    "character": 39
+                }
+            },
+            "rule": "reportGeneralTypeIssues"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/oauth2.py",
+            "severity": "error",
+            "message": "Type of \"kwargs\" could not be determined because it refers to itself",
+            "range": {
+                "start": {
+                    "line": 839,
+                    "character": 14
+                },
+                "end": {
+                    "line": 839,
+                    "character": 20
+                }
+            },
+            "rule": "reportGeneralTypeIssues"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/oauth2.py",
+            "severity": "error",
+            "message": "Type of \"on_removing_rt\" could not be determined because it refers to itself",
+            "range": {
+                "start": {
+                    "line": 841,
+                    "character": 13
+                },
+                "end": {
+                    "line": 841,
+                    "character": 27
+                }
+            },
+            "rule": "reportGeneralTypeIssues"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/oauth2.py",
+            "severity": "error",
+            "message": "Type of \"on_updating_rt\" could not be determined because it refers to itself",
+            "range": {
+                "start": {
+                    "line": 843,
+                    "character": 11
+                },
+                "end": {
+                    "line": 843,
+                    "character": 25
+                }
+            },
+            "rule": "reportGeneralTypeIssues"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/oauth2.py",
+            "severity": "error",
+            "message": "Type of \"on_updating_rt\" could not be determined because it refers to itself",
+            "range": {
+                "start": {
+                    "line": 844,
+                    "character": 13
+                },
+                "end": {
+                    "line": 844,
+                    "character": 27
+                }
+            },
+            "rule": "reportGeneralTypeIssues"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/oauth2.py",
+            "severity": "error",
+            "message": "Parameter annotation count mismatch: expected 4 but received 3",
+            "range": {
+                "start": {
+                    "line": 849,
+                    "character": 16
+                },
+                "end": {
+                    "line": 849,
+                    "character": 79
+                }
+            },
+            "rule": "reportInvalidTypeForm"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/oauth2.py",
+            "severity": "error",
+            "message": "\"Union\" is not defined",
+            "range": {
+                "start": {
+                    "line": 849,
+                    "character": 24
+                },
+                "end": {
+                    "line": 849,
+                    "character": 29
+                }
+            },
+            "rule": "reportUndefinedVariable"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/oauth2.py",
+            "severity": "error",
+            "message": "\"Union\" is not defined",
+            "range": {
+                "start": {
+                    "line": 849,
+                    "character": 42
+                },
+                "end": {
+                    "line": 849,
+                    "character": 47
+                }
+            },
+            "rule": "reportUndefinedVariable"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/oauth2.py",
+            "severity": "error",
+            "message": "Type of \"kwargs\" could not be determined because it refers to itself",
+            "range": {
+                "start": {
+                    "line": 861,
+                    "character": 15
+                },
+                "end": {
+                    "line": 861,
+                    "character": 21
+                }
+            },
+            "rule": "reportGeneralTypeIssues"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/oauth2.py",
+            "severity": "error",
+            "message": "Type of \"kwargs\" could not be determined because it refers to itself",
+            "range": {
+                "start": {
+                    "line": 863,
+                    "character": 59
+                },
+                "end": {
+                    "line": 863,
+                    "character": 65
+                }
+            },
+            "rule": "reportGeneralTypeIssues"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/oidc.py",
+            "severity": "error",
+            "message": "Method \"build_auth_request_uri\" overrides class \"Client\" in an incompatible manner\n  Positional parameter count mismatch; base method has 6, but override has 4\n  Parameter 3 name mismatch: base parameter is named \"redirect_uri\", override parameter is named \"nonce\"",
+            "range": {
+                "start": {
+                    "line": 174,
+                    "character": 8
+                },
+                "end": {
+                    "line": 174,
+                    "character": 30
+                }
+            },
+            "rule": "reportIncompatibleMethodOverride"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/oidc.py",
+            "severity": "error",
+            "message": "Method \"obtain_token_by_authorization_code\" overrides class \"Client\" in an incompatible manner\n  Positional parameter count mismatch; base method has 5, but override has 4\n  Parameter 3 name mismatch: base parameter is named \"redirect_uri\", override parameter is named \"nonce\"",
+            "range": {
+                "start": {
+                    "line": 188,
+                    "character": 8
+                },
+                "end": {
+                    "line": 188,
+                    "character": 42
+                }
+            },
+            "rule": "reportIncompatibleMethodOverride"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/oidc.py",
+            "severity": "error",
+            "message": "Method \"initiate_auth_code_flow\" overrides class \"Client\" in an incompatible manner\n  Positional parameter count mismatch; base method has 5, but override has 3",
+            "range": {
+                "start": {
+                    "line": 211,
+                    "character": 8
+                },
+                "end": {
+                    "line": 211,
+                    "character": 31
+                }
+            },
+            "rule": "reportIncompatibleMethodOverride"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/oidc.py",
+            "severity": "error",
+            "message": "Method \"obtain_token_by_auth_code_flow\" overrides class \"Client\" in an incompatible manner\n  Positional parameter count mismatch; base method has 5, but override has 4",
+            "range": {
+                "start": {
+                    "line": 248,
+                    "character": 8
+                },
+                "end": {
+                    "line": 248,
+                    "character": 38
+                }
+            },
+            "rule": "reportIncompatibleMethodOverride"
+        },
+        {
+            "file": "/Users/aaronpollack/dev/microsoft-authentication-library-for-python/msal/oauth2cli/oidc.py",
+            "severity": "error",
+            "message": "Method \"obtain_token_by_browser\" overrides class \"Client\" in an incompatible manner\n  Parameter 2 name mismatch: base parameter is named \"redirect_uri\", override parameter is named \"display\"\n  Parameter 3 name mismatch: base parameter is named \"auth_code_receiver\", override parameter is named \"prompt\"",
+            "range": {
+                "start": {
+                    "line": 289,
+                    "character": 8
+                },
+                "end": {
+                    "line": 289,
+                    "character": 31
+                }
+            },
+            "rule": "reportIncompatibleMethodOverride"
+        }
+    ],
+    "summary": {
+        "filesAnalyzed": 23,
+        "errorCount": 129,
+        "warningCount": 1,
+        "informationCount": 0,
+        "timeInSec": 2.078
+    }
+}
+
